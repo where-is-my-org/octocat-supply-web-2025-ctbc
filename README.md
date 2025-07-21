@@ -33,7 +33,7 @@ erDiagram
 
 ### Tech Stack
 - **Frontend**: React 18+, TypeScript, Tailwind CSS, Vite
-- **Backend**: Express.js, TypeScript, OpenAPI/Swagger
+- **Backend**: Python FastAPI
 - **DevOps**: Docker
 
 ## 🎯 Key Demo Scenarios
