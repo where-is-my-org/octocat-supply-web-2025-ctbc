@@ -17,6 +17,11 @@ This repo is hosted in GitHub:
 - Iteration 3: 2025-08-20 to 2025-09-03
 - Iteration 4: 2025-09-04 to 2025-09-18
 - Iteration 5: 2025-09-19 to 2025-10-03
+- Iteration 6
+- Iteration 7
+- Iteration 8
+- Iteration 9
+- Iteration 10
 > Note: All new work items should be created as default iteration path.
 
 ## Work Item Information and Hierarchy
@@ -54,9 +59,10 @@ This repo is hosted in GitHub:
     |--------------------------------|---------------------|------------------------------------------------------------------------------------------------------------|
     |          System.Title          |  Title              | A concise name for the Task that reflects its purpos                                                    |
     |      System.Description        |  Description        | A detailed explanation of the Task, including technical requirements and implementation details.                                                         |
-    |  System.IterationPath     | Iteration |  |
+    |  System.IterationPath     | Iteration / Sprint |  |
     |  Assigned To     | Owner | The team member responsible for completing the Task. |
     | Original Estimate |      Hour       | An estimate of the time or resources required to complete the Task.                                     |
+    | Activity |      Activity       | Type of work involved (Deployment / Design / Development / Documentation / Requirements / Testing)                                     |
 
 
 - **Test Case**: A specific test scenario that validates the functionality of a User Story. Test Cases ensure that the implemented features meet the acceptance criteria and function as expected.
@@ -99,6 +105,7 @@ This repo is hosted in GitHub:
 - A Feature (Parent) contains multiple User Stories (Child).
 - A User Story (Parent) can have multiple Tasks (Child) or Test Case (Child) associated with it.
 - A User Story an have multiple Test Cases to validate its functionality. User Story would linked to Test Cases by `Tested By` link type.
+- A User Story (Parent) can have multiple Tasks (Child), and a Task can only belong to one User Story.
 ```
 Feature
 │
