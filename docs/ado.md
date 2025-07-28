@@ -57,7 +57,7 @@ This repo is hosted in GitHub:
 
     |       Azure DevOps Field       |    Document Field   |                                      Description                                                           |
     |--------------------------------|---------------------|------------------------------------------------------------------------------------------------------------|
-    |          System.Title          |  Title              | A concise name for the Task that reflects its purpos                                                    |
+    |          System.Title          |  work item              | A concise name for the Task that reflects its purpos                                                    |
     |      System.Description        |  Description        | A detailed explanation of the Task, including technical requirements and implementation details.                                                         |
     |  System.IterationPath     | Iteration / Sprint |  |
     |  Assigned To     | Owner | The team member responsible for completing the Task. |

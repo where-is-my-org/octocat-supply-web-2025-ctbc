@@ -57,7 +57,9 @@ Each Sprint's detailed planning should include the following:
 
 The work item table should include the following fields:
 - Work item name
-- Type (task, bug, etc.)
+- ID (Levae blank if not work item created yet)
+- Description
+- Type (Task or Bug)
 - User Story (if applicable)
 - Feature (if applicable)
 - Related Test Case (if applicable)
@@ -70,10 +72,10 @@ Table format:
 ```markdown
 **Work Items**:
 
-| Work Item            | Type  |  User Story |  Related Test Case |  Feature | Estimate | Responsible Team |     Priority    |
-|----------------------|-------|---------------------|--------------------|------------------|----------|------------------|-----------------|
-| [Work item name]     | Task  | US XY               | TC XYZ             | F XXXX           | X hours  | [Team name]      | High/Medium/Low |
-| ...                  | ...   | ...                 | ...                | ...              | ...      | ...              | ...             |
+| Work Item            | ID   | Description           | Type  | User Story  | Feature | Related Test Case  | Estimated Time | Responsible Team | Priority        |
+|----------------------|------|-----------------------|-------|-------------|---------|--------------------|----------------|------------------|-----------------|
+| [Work item name]     |      | [Description]         | Task  | US XY       | F XXXX  | TC XYZ             | X hours        | [Team name]      | High/Medium/Low |
+| ...                  | ...  | ...                   | ...   | ...         | ...     | ...                | ...            | ...              | ...             |
 
 ```
 
@@ -171,19 +173,19 @@ Below is an example of detailed Sprint planning:
 
 **Work Items**:
 
-| Work Item                                    | Type  | User Story | Related Test Case | Feature | Estimate | Responsible Team | Priority |
-|----------------------------------------------|-------|--------------------------------|-------------------|-----------------|----------|------------------|----------|
-| Design user data model                       | Task  | US 101         | TC 201, TC 202, TC 203 | F 1001      | 8 hours  | Backend Team     | High     |
-| Implement user database layer                | Task  | US 102         | TC 201, TC 202, TC 203 | F 1001      | 12 hours | Backend Team     | High     |
-| Develop user API endpoints                   | Task  | US 103         | TC 201                 | F 1001      | 16 hours | Backend Team     | High     |
-| Implement supplier registration UI           | Task  | US 201         | TC 201                 | F 1001      | 8 hours  | Frontend Team    | High     |
-| Implement enterprise buyer registration UI   | Task  | US 202         | TC 202                 | F 1001      | 8 hours  | Frontend Team    | High     |
-| Implement login functionality UI             | Task  | US 203         | TC 203                 | F 1001      | 8 hours  | Frontend Team    | High     |
-| Implement email verification system          | Task  | US 301         |                   | F 1001           | 12 hours | Backend Team     | High     |
-| Implement authentication and authorization middleware | Task | US 302 |                   | F 1001           | 8 hours  | Backend Team     | High     |
-| Integrate frontend and backend authentication flows | Task | US 303 |                   | F 1001           | 8 hours  | Full Stack Team  | High     |
-| Write unit tests                             | Test  | US 411    |                   | F 1001           | 12 hours | Testing Team     | High     |
-| Perform integration testing                  | Test  | US 412    |                   | F 1001           | 8 hours  | Testing Team     | High     |
+| Work Item Name                               | ID   | Description                          | Type  | User Story | Feature | Related Test Case      | Estimated Time | Responsible Team | Priority |
+|----------------------------------------------|------|--------------------------------------|-------|-------------|---------|-------------------------|----------------|------------------|----------|
+| Design user data model                       |      | Design the structure for user entity and relationships | Task  | US 101      | F 1001  | TC 201, TC 202, TC 203 | 8 hours        | Backend Team     | High     |
+| Implement user database layer                |      | Create persistence logic and schemas for user data     | Task  | US 102      | F 1001  | TC 201, TC 202, TC 203 | 12 hours       | Backend Team     | High     |
+| Develop user API endpoints                   |      | Build RESTful APIs for user operations                 | Task  | US 103      | F 1001  | TC 201                 | 16 hours       | Backend Team     | High     |
+| Implement supplier registration UI           |      | Design and develop frontend form for supplier sign-up  | Task  | US 201      | F 1001  | TC 201                 | 8 hours        | Frontend Team    | High     |
+| Implement enterprise buyer registration UI   |      | Design and develop frontend form for enterprise buyers | Task  | US 202      | F 1001  | TC 202                 | 8 hours        | Frontend Team    | High     |
+| Implement login functionality UI             |      | Build login screen and connect to auth backend         | Task  | US 203      | F 1001  | TC 203                 | 8 hours        | Frontend Team    | High     |
+| Implement email verification system          |      | Send email after registration with verification link   | Task  | US 301      | F 1001  |                         | 12 hours       | Backend Team     | High     |
+| Implement authentication and authorization middleware |      | Add middleware to handle user identity and roles | Task  | US 302      | F 1001  |                         | 8 hours        | Backend Team     | High     |
+| Integrate frontend and backend authentication flows |      | Ensure seamless login/signup flow across stack | Task  | US 303      | F 1001  |                         | 8 hours        | Full Stack Team  | High     |
+| Write unit tests                             |      | Create unit tests for user and auth modules            | Task  | US 411      | F 1001  |                         | 12 hours       | Testing Team     | High     |
+| Perform integration testing                  |      | Test the end-to-end user flow across all components    | Task  | US 412      | F 1001  |                         | 8 hours        | Testing Team     | High     |
 
 **Deliverables**:
 - Complete user registration and authentication system
@@ -192,7 +194,7 @@ Below is an example of detailed Sprint planning:
 - User login functionality
 - Test reports
 
-**Evaluation Metrics**:
+**Recommended Evaluation Metrics**:
 - Complete all acceptance criteria for User Stories 101, 102, and 103
 - All unit tests pass with 95% or higher rate
 - Integration tests pass with 90% or higher rate
