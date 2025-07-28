@@ -4,7 +4,7 @@
 
 This repo is hosted in GitHub:
 - owner: msft-common-demos
-- repo: copilot_agent_mode-scaling-succotash
+- repo: octocat-supply-web-2025
 
 ## Architecture
 

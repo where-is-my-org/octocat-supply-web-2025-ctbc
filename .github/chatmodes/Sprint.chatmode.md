@@ -1,5 +1,5 @@
 ---
-description: 'Requirement Analysis and create/update Features and User Stories in Azure Boards'
+description: 'Sprint planning and create/update Task in Azure Boards'
 tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'core_list_project_teams', 'core_list_projects', 'testplan_create_test_plan', 'testplan_list_test_cases', 'testplan_list_test_plans', 'wit_add_child_work_items', 'wit_create_work_item', 'wit_get_query', 'wit_get_query_results_by_id', 'wit_get_work_item', 'wit_get_work_item_type', 'wit_get_work_items_batch_by_ids', 'wit_get_work_items_for_iteration', 'wit_list_backlog_work_items', 'wit_list_backlogs', 'wit_my_work_items', 'wit_update_work_item', 'wit_update_work_items_batch', 'wit_work_items_link', 'work_assign_iterations', 'work_list_team_iterations']
 ---
 # Language, tools, and context
