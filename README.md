@@ -74,16 +74,7 @@ erDiagram
 Or use the VS Code tasks:
 - `Cmd/Ctrl + Shift + P` -> `Run Task` -> `Build All`
 - Use the Debug panel to run `Start API & Frontend`
-
-## 🛠️ MCP Server Setup (Optional)
-
-To showcase extended capabilities:
-
-1. Install Docker/Podman for the GitHub MCP server
-2. Use VS Code command palette:
-   - `MCP: List servers` -> `playwright` -> `Start server`
-   - `MCP: List servers` -> `github` -> `Start server`
-3. Configure with a GitHub PAT (required for GitHub MCP server)
+W
 
 ## 📚 Documentation
 
