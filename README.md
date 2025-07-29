@@ -10,10 +10,8 @@ Welcome to the OctoCAT Supply Website - your go-to demo for showcasing the incre
 This isn't just another demo app - it's a carefully crafted showcase that demonstrates the full spectrum of GitHub's AI capabilities:
 
 - 🤖 **Copilot Agent Mode & Vision** - Watch Copilot understand UI designs and implement complex features across multiple files
-- 🎭 **MCP Server Integration** - Demonstrate extended capabilities with Playwright for testing and GitHub API integration
+- 🎭 **MCP Server Integration** - Demonstrate extended capabilities with Playwright for testing and Azure DevOps integration
 - 🛡️ **Security First** - Showcase GHAS scanning and Copilot-powered vulnerability fixes
-- 🧪 **Test Generation** - Exhibit Copilot's ability to analyze coverage and generate meaningful tests
-- 🔄 **CI/CD & IaC** - Generate deployment workflows and infrastructure code with natural language
 - 🎯 **Custom Instructions** - Show how Copilot can be tailored to understand internal frameworks and standards
 
 ## 🏗️ Architecture
@@ -39,24 +37,19 @@ erDiagram
 ## 🎯 Key Demo Scenarios
 
 1. **Vibe Coding**
+   - Requirements analysis and sprint planning with Copilot
+   - Interactive with Azure Board for task management
    - Implement a shopping cart from a design mockup
    - Watch Copilot analyze, plan, and implement across multiple files
-   - Show real-time UI updates and state management
 
-2. **Automated Testing**
-   - Generate BDD feature files
-   - Create and execute Playwright tests
-   - Enhance unit test coverage with intelligent test generation
-
-3. **Security and Best Practices**
+2. **Security and Best Practices**
    - Scan for vulnerabilities using GHAS
    - Generate automated fixes
    - Implement security best practices with Copilot guidance
 
-4. **DevOps Automation**
-   - Generate GitHub Actions workflows
-   - Create infrastructure as code
-   - Set up container deployments
+3. **Automated Testing**
+   - Generate BDD feature files
+   - Create and execute Playwright tests
 
 ## 🚀 Getting Started
 
@@ -74,7 +67,6 @@ erDiagram
 Or use the VS Code tasks:
 - `Cmd/Ctrl + Shift + P` -> `Run Task` -> `Build All`
 - Use the Debug panel to run `Start API & Frontend`
-W
 
 ## 📚 Documentation
 
@@ -86,7 +78,6 @@ W
 - Practice the demos before customer presentations
 - Remember Copilot is non-deterministic - be ready to adapt
 - Mix and match demo scenarios based on your audience
-- Keep your GitHub PAT handy for MCP demos
 
 ---
 
