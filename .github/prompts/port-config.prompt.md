@@ -1,6 +1,6 @@
 ---
 mode: 'agent'
-description: 'Update frontend and backend configurations to allow communication between the frontend application and the backend API on user difned ports.'
+description: 'Update frontend and backend configurations to allow communication between the frontend application and the backend API on user defined ports.'
 tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages']
 ---
 
@@ -8,7 +8,7 @@ tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRep
 
 ## Context
 You are working with the OctoCAT Supply Chain Management System - a modern TypeScript web application with separate API and Frontend (React) projects.
-There are mutiple user that running the application on same environmet and need to configure different ports. The frontend application is running on port 5137 and the backend API is running on port 3000. The user wants to update the port configuration to allow the frontend application to communicate with the backend API.
+There are multiple users that are running the application on the same environment and need to configure different ports. The frontend application is running on port 5137 and the backend API is running on port 3000. The user wants to update the port configuration to allow the frontend application to communicate with the backend API.
 
 ## Current State
 - The backend API is running on port 3000
@@ -35,7 +35,7 @@ Update port configuration based on user input including:
 
 ### Frontend Architecture and Building
 - Refer to the existing Architecture Doc (../docs/architecture.md) for frontend structure
-- Refere to the Building Doc (../docs/building.md) for build instructions
+- Refer to the Building Doc (../docs/building.md) for build instructions
 
 ## Success Criteria
 After implementation, users should be able to:
