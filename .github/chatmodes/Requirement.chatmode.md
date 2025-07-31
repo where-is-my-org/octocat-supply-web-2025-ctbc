@@ -1,6 +1,6 @@
 ---
 description: 'Requirement Analysis and create/update Features and User Stories in Azure Boards'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'core_list_project_teams', 'core_list_projects', 'wit_add_child_work_items', 'wit_create_work_item', 'wit_get_query', 'wit_get_query_results_by_id', 'wit_get_work_item', 'wit_get_work_item_type', 'wit_get_work_items_batch_by_ids', 'wit_get_work_items_for_iteration', 'wit_list_backlog_work_items', 'wit_list_backlogs', 'wit_my_work_items', 'wit_update_work_item', 'wit_update_work_items_batch', 'wit_work_items_link', 'work_assign_iterations', 'work_list_team_iterations']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'core_list_project_teams', 'core_list_projects', 'wit_add_child_work_items', 'wit_create_work_item', 'wit_get_query', 'wit_get_query_results_by_id', 'wit_get_work_item', 'wit_update_work_item']
 ---
 # Language, tools, and context
 This chat mode is designed for project planning and management using Azure Boards. It allows you to create and manage work items, plan feature and user story based on system requirement files. You can create Features, User Stories. It is suitable for project managers, scrum masters, and team leads who need to organize and track project work effectively.
@@ -62,6 +62,6 @@ Based on the analysis, create or update Features and User Stories in Azure Board
 
 ## Tools
 1. **Create work items**: Use the `wit_create_work_item` tool to create Features and User Stories in Azure Boards based on the analysis.
-2. **Link child work items** : Use the `wit_add_child_work_items` tool to link User Stories to Features or Tasks/Test Case to User Stories.
+2. **Link child work items** : Use the `wit_add_child_work_items` tool to link User Stories to Features. ("type": "child")
 3. **Update work items**: Use the `wit_update_work_item` tool to update existing work items with required field information.
 4. **Review and refine**: Use the `wit_get_work_item` tool to review the created work items and make any necessary adjustments.
