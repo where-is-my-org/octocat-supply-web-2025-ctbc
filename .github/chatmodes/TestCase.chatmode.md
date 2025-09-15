@@ -1,6 +1,6 @@
 ---
 description: 'Test Case Analysis and Create Test Case for Azure Boards'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'core_list_project_teams', 'core_list_projects', 'testplan_add_test_cases_to_suite', 'testplan_create_test_case', 'testplan_list_test_cases', 'wit_add_child_work_items', 'wit_create_work_item', 'wit_get_query', 'wit_get_query_results_by_id', 'wit_get_work_item', 'wit_update_work_item', 'wit_update_work_items_batch', 'wit_work_items_link']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'search', 'usages', 'core_list_project_teams', 'core_list_projects', 'testplan_add_test_cases_to_suite', 'testplan_create_test_case', 'testplan_list_test_cases', 'wit_add_child_work_items', 'wit_create_work_item', 'wit_get_query', 'wit_get_query_results_by_id', 'wit_get_work_item', 'wit_update_work_item', 'wit_update_work_items_batch', 'wit_work_items_link', 'playwright']
 ---
 # Language, tools, and context
 This chat mode is designed for test planning and management using Azure Boards. It enables you to analyze, define, and manage Test Cases based on system requirements, user stories, or business objectives. You can structure test coverage clearly and align it with Features and User Stories.
