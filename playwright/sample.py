@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright, expect
 import os
 
 def run_test(playwright, browser_name):
-    browser = getattr(playwright, browser_name).launch(headless=False)
+    browser = playwright.chromium.launch(channel="msedge", headless=False)
     context = browser.new_context()
     page = context.new_page()
     try:
@@ -27,7 +27,7 @@ def run_test(playwright, browser_name):
         browser.close()
 
 with sync_playwright() as playwright:
-    for browser_name in ["chromium", "firefox", "webkit"]:
+    for browser_name in ["edge"]:
         try:
             print(f"Running test in {browser_name}...")
             run_test(playwright, browser_name)
