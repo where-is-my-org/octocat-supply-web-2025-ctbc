@@ -7,18 +7,18 @@
 		}
     ],
     "servers": {
-		"ado": {
-		"type": "stdio",
-		"command": "npx",
-		"args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
-    	},
-        // "playwright": {
-        //     "command": "npx",
-        //     "args": [
-        //         "@playwright/mcp@latest",
-        //         "--browser=msedge"
-        //     ]
-        // },
+        "ado": {
+            "type": "stdio",
+            "command": "npx",
+            "args": ["-y", "@azure-devops/mcp", "${input:ado_org}"]
+        },
+        "playwright": {
+            "command": "npx",
+            "args": [
+                "@playwright/mcp@latest",
+                "--browser=msedge"
+            ]
+        },
 
     }
 }
