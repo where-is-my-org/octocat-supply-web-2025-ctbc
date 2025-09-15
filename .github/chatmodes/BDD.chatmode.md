@@ -1,6 +1,6 @@
 ---
 description: 'Help me create a BDD feature file based on user requirements.'
-tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'runCommands', 'search', 'usages']
+tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'runCommands', 'search', 'usages', 'playwright']
 ---
 # BDD Feature File Generator
 
