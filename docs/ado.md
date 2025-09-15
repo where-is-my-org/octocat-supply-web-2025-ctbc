@@ -2,21 +2,21 @@
 
 ## GitHub Repo Information
 
-This repo is hosted in GitHub:
-- repo: https://github.com/where-is-my-org/octocat-supply-web-2025
+This repo is hosted in GitHub or Azure DevOps. Below is the information about the repository:
+- repo: <repository-uri>
 
 # Azure DevOps Information
-- Project: https://dev.azure.com/huier23/octosupply-web
-- Project Name: octosupply-web
-- Team Name: octosupply-web
+- Project: https://dev.azure.com/<organization>/<project> 
+- Project Name: <project> 
+- Team Name: <project> 
 
 ## Iteration Schedule
-- Default Iteration Path: `octosupply-web`
-- Iteration 1: 2025-07-20 to 2025-08-04
-- Iteration 2: 2025-08-05 to 2025-08-19
-- Iteration 3: 2025-08-20 to 2025-09-03
-- Iteration 4: 2025-09-04 to 2025-09-18
-- Iteration 5: 2025-09-19 to 2025-10-03
+- Default Iteration Path: `<iterations>`
+- Iteration 1: 2025-09-15 to 2025-10-05
+- Iteration 2: 2025-10-06 to 2025-10-24
+- Iteration 3: 2025-10-25 to 2025-11-14
+- Iteration 4: 2025-11-15 to 2025-12-05
+- Iteration 5: 2025-12-06 to 2025-12-26
 - Iteration 6
 - Iteration 7
 - Iteration 8
